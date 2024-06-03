@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f0ebf8;
+}
+
+
+.container {
+    align-items: center;
+
+}
+.header {
+    background-color: rgb(51, 1, 51);
+    height: 160px;
+    padding-top: 2%;
+}
+
+.header h3 {
+  color: #ccc;
+  background-color: rgb(51, 1, 51);
+  border: 1px solid #ccc;
+  width: 20%;
+  margin: auto;
+  margin-top: 1%;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+input{
+     border: none;
+     border-bottom: 1px solid #ccc;
+     padding: 10px 0;
+}
+
+input[type="text"], 
+input[type="date"],
+input[type="number"],
+input[type="file"],
+textarea {
+    width: 400px;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fdfdfd;
+    width: 40%;
+    margin: 0 auto;
+    position: relative;
+    top: -60px;
+    box-shadow: 3px 3px 3px rgb(51, 1, 51);
+    border-radius: 10px;
+}
+
+.form-header {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #dfdfdf;
+    height: 45px;
+    color: rgb(51, 1, 51);
+    border-bottom: 2px solid rgb(51, 1, 51);
+    line-height: 45px;
+    text-transform: uppercase;
+}
+
+.form-body {
+    text-align: center;
+    padding: 30px;
+}
+
+.form-body p {
+    margin-bottom: 10px;
+}
+
+.form-tittle {
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 3%;
+}
+
+.box-input {
+    margin-bottom: 35px;
+}
+
+.box-input label {
+    display: flex;
+    text-align: left;
+}
+
+.block {
+    display: block;
+}
+
+.optional-box {
+    display: inline-block;
+    margin: 0 30px 30px 0;
+}
+
+.optional-box li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.btn-submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(51, 1, 51);
+    color: #fff;
+    border-radius: 13px;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 6%;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
